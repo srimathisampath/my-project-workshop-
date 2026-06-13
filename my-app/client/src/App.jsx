@@ -1,18 +1,18 @@
-import hero from './components/hero'
-import workshopDetails from './components/workshopDetails'
-import learningOutcome from './components/learningOutcome'
+import Hero from './components/hero'
+import WorkshopDetails from './components/workshopDetails'
+import LearningOutcome from './components/learningOutcome'
 import FAQ from './components/FAQ'
-import registrationForm from './components/registrationform'
+import RegistrationForm from './components/registrationform'
 import './App.css'
 
 function App() {
   return (
     <div>
-      <hero />
-      <workshopDetails />
-      <learningOutcome />
+      <Hero />
+      <WorkshopDetails />
+      <LearningOutcome />
       <FAQ />
-      <registrationform />
+      <RegistrationForm />
     </div>
   )
 }
