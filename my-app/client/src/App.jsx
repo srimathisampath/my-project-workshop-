@@ -1,8 +1,8 @@
-import Hero from './components/Hero'
-import WorkshopDetails from './components/workshopDetails'
-import LearningOutcomes from './components/learningOutcome'
+import hero from './components/hero'
+import workshopDetails from './components/workshopDetails'
+import learningOutcome from './components/learningOutcome'
 import FAQ from './components/FAQ'
-import RegistrationForm from './components/registrationform'
+import registrationForm from './components/registrationform'
 import './App.css'
 
 function App() {
