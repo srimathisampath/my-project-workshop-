@@ -8,11 +8,11 @@ import './App.css'
 function App() {
   return (
     <div>
-      <Hero />
-      <WorkshopDetails />
-      <LearningOutcomes />
+      <hero />
+      <workshopDetails />
+      <learningOutcome />
       <FAQ />
-      <RegistrationForm />
+      <registrationform />
     </div>
   )
 }
