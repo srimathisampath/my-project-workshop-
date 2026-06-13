@@ -1,6 +1,6 @@
 import React from 'react'
 
-function LearningOutcomes() {
+function LearningOutcome() {
   const outcomes = [
     'Understand the basics of Artificial Intelligence',
     'Build simple robots using block-based coding',
@@ -32,4 +32,4 @@ function LearningOutcomes() {
   )
 }
 
-export default LearningOutcomes
+export default LearningOutcome

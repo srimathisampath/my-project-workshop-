@@ -12,7 +12,7 @@ function RegistrationForm() {
     e.preventDefault()
     setStatus('Submitting...')
     try {
-      const res = await fetch('http://localhost:5000/api/enquiry', {
+      const res = await fetch('https://my-project-workshop.onrender.com/api/enquiry', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form)
